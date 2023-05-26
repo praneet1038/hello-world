@@ -1,40 +1,30 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
- 
-  <!-- The Basics -->
-  <groupId>...</groupId>
-  <artifactId>...</artifactId>
-  <version>...</version>
-  <packaging>...</packaging>
-  <dependencies>...</dependencies>
-  <parent>...</parent>
-  <dependencyManagement>...</dependencyManagement>
-  <modules>...</modules>
-  <properties>...</properties>
- 
-  <!-- Build Settings -->
-  <build>...</build>
-  <reporting>...</reporting>
- 
-  <!-- More Project Information -->
-  <name>...</name>
-  <description>...</description>
-  <url>...</url>
-  <inceptionYear>...</inceptionYear>
-  <licenses>...</licenses>
-  <organization>...</organization>
-  <developers>...</developers>
-  <contributors>...</contributors>
- 
-  <!-- Environment Settings -->
-  <issueManagement>...</issueManagement>
-  <ciManagement>...</ciManagement>
-  <mailingLists>...</mailingLists>
-  <scm>...</scm>
-  <prerequisites>...</prerequisites>
-  <repositories>...</repositories>
-  <pluginRepositories>...</pluginRepositories>
-  <distributionManagement>...</distributionManagement>
-  <profiles>...</profiles>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>isha.project</groupId>
+    <artifactId>MavenChatbot</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version>
+        </dependency>
+        <dependency>
+            <groupId>net.dv8tion</groupId>
+            <artifactId>JDA</artifactId>
+            <version>5.0.0-beta.9</version>
+        </dependency>
+    </dependencies>
+
+
 </project>
